@@ -144,11 +144,9 @@ intents:
 - nlu_fallback
 responses:
   utter_bienvenida:
-    - text: Hola 👋, soy Ciencito 🤖!, FC me creo para ayudarte a resolver tus dudas o consultas
-  utter_funcionalidades:
-    - text: Puedo ayudarte a resolver tus o consultas sobre temas de matricula, procedimientos y tramites
+    - text: Hola 👋, soy Aerito 🤖!, AERA me creo para ayudarte a resolver tus dudas o consultas
   utter_saludo:
-    - text: Hola 👋, soy Aerito 🤖!, AERA me creo para ayudarte a resolver tus dudas o consultas, sobre temas de matricula, procedimientos y tramites.
+    - text: Hola 👋, soy Aerito 🤖!, AERA me creo para ayudarte a resolver tus dudas o consultas, sobre temas de matricula, procedimientos y tramites académicos.
   utter_requerir_consulta:
     - text: Dime, ¿Cual es tu consulta?
     - text: Dime, ¿En qué puedo ayudarte?
@@ -161,7 +159,7 @@ responses:
         payload: '/reformular_consulta'
 
   utter_escribir_consulta_clara:
-    - text: '¡Vamos de nuevo!, por favor escribe tu consulta de la manera mas clara que sea posible'
+    - text: Genial! probemos de nuevo, por favor escribe tu consulta de la manera mas clara que sea posible'
 
   utter_agradecimiento_y_requerir_mas:
     - text: No hay problema, ¿Hay algo mas en lo que pueda ayudarte?
@@ -190,7 +188,7 @@ responses:
         payload: '/consulta_matricula_procedimiento_regular'
 
   utter_formulario_procesos_matricula:
-    - text: 'Sé que algunos temas del proceso de matrícula pueden generar dudas, pero no te preocupes estoy para ayudarte. Elija la opción que corresponda con su consulta:'
+    - text: 'Sé que algunos temas del **proceso de matrícula** pueden generar dudas, pero no te preocupes estoy para ayudarte. Elija la opción que corresponda con su consulta:'
       buttons:
       - title: "¿Cuál es el proceso de matrícula para un alumno ingresante?"
         payload: "/consulta_matricula_procedimiento_ingresante_form"
@@ -224,7 +222,7 @@ responses:
         payload: "/consulta_directa"
 
   utter_formulario_retiros:
-    - text: 'Elija la opción que corresponda con su consulta:'
+    - text: 'Animo! los **retiros** también son un buena estrategia, puedo facilitarte la siguiente información. Elija la opción que corresponda con su consulta:'
       buttons:
       - title: "¿Cuál es el procedimiento para hacer un retiro parcial de cursos?"
         payload: "/consulta_retiro_parcial_procedimiento_form"
@@ -252,7 +250,7 @@ responses:
         payload: "/consulta_directa"
 
   utter_formulario_tramites_procesos_academicos:
-    - text: 'Los trámites y procesos académicos pueden parecer complicados, pero no te preocupes estoy para ayudarte. Elija la opción que corresponda con su consulta:'
+    - text: 'Los **trámites y procesos académicos** pueden parecer complicados, pero no te preocupes estoy para ayudarte. Elija la opción que corresponda con su consulta:'
       buttons:
       - title: "¿Cuál es el procedimiento para solicitar la reserva de matrícula?"
         payload: "/consulta_reserva_matricula_procedimiento_form"
@@ -299,10 +297,12 @@ responses:
     - text: |-
         El estudiante desee realizar su reserva de matricula deberá ingresar a la plataforma de intranet-alumno para subir su solicitud y el documento que acredite la razón invocada.  Puedes acceder al formato de solicitud y a más información sobre el procedimiento ingresando al siguiente enlace:  
         https://drive.google.com/file/d/15ZZvoi1etESzH54Qd-xZNOV240cJ0UdH/view
+  
   utter_informar_retiro_parcial_procedimiento:
     - text: |-
         El procedimiento de retiro parcial se realiza por el mismo intranet alumno, solo debe encontrar la opción de retiro parcial en la seccion de mis tramites y seleccionar el curso o los cursos del cual desea retirarse. Luego de finalizada la semana de retiro AERA se encarga de revisar y ORCE de ejecutar el retiro. También puede consultar el link: 
         https://drive.google.com/file/d/1HHNaREQY7WWJ2Y_rk1rtTwiDOuptZHh9/view
+  
   utter_informar_solicitud_constancia_matricula_procedimiento:
     - text: 'Puede encontrar el procedimiento y el formato de solicitud aquí https://drive.google.com/file/d/1fp2Ahw3XKqonbipJEU0Ixl8Pegn6t2yQ/view '
     - text: En la pagina web en la sección de AERA encontrará el procedimiento para trámite de constancia de matrícula o de notas
@@ -315,7 +315,7 @@ responses:
     - text: Si es alumno regular, debe realizar el pago por AUTOSEGURO de manera obligatoria y con 03 días mínimo de antelación a la matrícula, no es necesario enviar su vaucher. Seguidamente ORCE le habilitara su ficha de matricula en el intranet-alumno en su fecha y horario correspondiente. 
   
   utter_consulta_directa:
-    - text: Genial conversemos, dime ¿En que te puedo ayudarte?
+    - text: Genial conversemos, ¿En que te puedo ayudarte?
 
   utter_informar_matricula_cronograma:
     - text: Puede encontrar las fechas de la matricula dentro del [calendario en la página web de la Facultad] (https://fc.uni.edu.pe/wp-content/uploads/2021/06/CronogramaIngresantes.pdf)
@@ -352,11 +352,11 @@ responses:
   utter_informar_motivos_procede_retiro_total:
     - text: |-
         El retiro total procede por motivos de fuerza mayor: 
-        \n\n 1. Viaje al extranjero 
-        \n\n 2. Accidente limitante 
-        \n\n 3. Enfermedad limitante 
-        \n\n 4. Emergencia familiar limitante 
-        \n\n 5. Afectación limitante por COVID-19 (Incluye alumnos separados por un 1año)
+          - Viaje al extranjero 
+          - Accidente limitante 
+          - Enfermedad limitante 
+          - Emergencia familiar limitante 
+          - Afectación limitante por COVID-19 (Incluye alumnos separados por un 1año)
 
   utter_informar_reserva_matricula_fechas:
     - text: 'La solicitud de reserva de matricula debe ser enviada hasta una semana antes de inicio de la próxima matrícula, ponemos a su disposición el cronograma de actividades que se encuentra aquí: https://drive.google.com/file/d/1bYqSxhadDDAQYHRK3SWzp-_l2jds4Vxq/view'

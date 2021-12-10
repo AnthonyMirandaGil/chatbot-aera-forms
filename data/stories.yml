@@ -12,6 +12,14 @@ stories:
     - intent: consulta_matricula_procedimiento_ingresante_form
     - action: utter_matricula_procedimiento_ingresante
     - action: utter_mas_ayuda_formulario_luego_procesos_matricula
+    - intent: consulta_sobre_matricula
+    - action: utter_formulario_procesos_matricula
+    - intent: consulta_matricula_procedimiento_regular_form
+    - action: utter_matricula_procedimiento_regular
+    - action: utter_mas_ayuda_formulario_luego_procesos_matricula
+    - intent: denegar_mas_ayuda
+    - action: utter_despedida
+    
 
 - story: PM001F2
   steps:
@@ -22,6 +30,13 @@ stories:
     - intent: consulta_matricula_procedimiento_ingresante_form
     - action: utter_matricula_procedimiento_ingresante
     - action: utter_mas_ayuda_formulario_luego_procesos_matricula
+    - intent: consulta_sobre_matricula
+    - action: utter_formulario_procesos_matricula
+    - intent: consulta_matricula_procedimiento_regular_form
+    - action: utter_matricula_procedimiento_regular
+    - action: utter_mas_ayuda_formulario_luego_procesos_matricula
+    - intent: denegar_mas_ayuda
+    - action: utter_despedida
 
 - story: PM002F1
   steps:
@@ -33,6 +48,13 @@ stories:
     - intent: consulta_matricula_procedimiento_regular_form
     - action: utter_matricula_procedimiento_regular
     - action: utter_mas_ayuda_formulario_luego_procesos_matricula
+    - intent: consulta_sobre_matricula
+    - action: utter_formulario_procesos_matricula
+    - intent: consulta_matricula_cronograma_form
+    - action: utter_informar_matricula_cronograma
+    - action: utter_mas_ayuda_formulario_luego_procesos_matricula
+    - intent: denegar_mas_ayuda
+    - action: utter_despedida
 
 - story: PM002F2
   steps:
@@ -43,7 +65,14 @@ stories:
     - intent: consulta_matricula_procedimiento_regular_form
     - action: utter_matricula_procedimiento_regular
     - action: utter_mas_ayuda_formulario_luego_procesos_matricula
-
+    - intent: consulta_sobre_matricula
+    - action: utter_formulario_procesos_matricula
+    - intent: consulta_matricula_cronograma_form
+    - action: utter_informar_matricula_cronograma
+    - action: utter_mas_ayuda_formulario_luego_procesos_matricula
+    - intent: denegar_mas_ayuda
+    - action: utter_despedida
+    
 - story: PM003F1
   steps:
     - intent: saludo
@@ -54,6 +83,13 @@ stories:
     - intent: consulta_matricula_cronograma_form
     - action: utter_informar_matricula_cronograma
     - action: utter_mas_ayuda_formulario_luego_procesos_matricula
+    - intent: consulta_sobre_matricula
+    - action: utter_formulario_procesos_matricula
+    - intent: consulta_matricula_horarios_form
+    - action: utter_informar_matricula_horarios
+    - action: utter_mas_ayuda_formulario_luego_procesos_matricula
+    - intent: denegar_mas_ayuda
+    - action: utter_despedida
 
 - story: PM003F2
   steps:
@@ -65,6 +101,13 @@ stories:
     - intent: consulta_matricula_cronograma_form
     - action: utter_informar_matricula_cronograma
     - action: utter_mas_ayuda_formulario_luego_procesos_matricula
+    - intent: consulta_sobre_matricula
+    - action: utter_formulario_procesos_matricula
+    - intent: consulta_matricula_horarios_form
+    - action: utter_informar_matricula_horarios
+    - action: utter_mas_ayuda_formulario_luego_procesos_matricula
+    - intent: denegar_mas_ayuda
+    - action: utter_despedida
 
 - story: PM004F1
   steps:
@@ -76,6 +119,13 @@ stories:
     - intent: consulta_matricula_horarios_form
     - action: utter_informar_matricula_horarios
     - action: utter_mas_ayuda_formulario_luego_procesos_matricula
+    - intent: consulta_sobre_matricula
+    - action: utter_formulario_procesos_matricula
+    - intent: consulta_solicitud_carnet_universitario_form
+    - action: utter_informar_solicitud_carnet_universitario
+    - action: utter_mas_ayuda_formulario_luego_procesos_matricula
+    - intent: denegar_mas_ayuda
+    - action: utter_despedida
 
 - story: PM004F2
   steps:
@@ -86,6 +136,13 @@ stories:
     - intent: consulta_matricula_horarios_form
     - action: utter_informar_matricula_horarios
     - action: utter_mas_ayuda_formulario_luego_procesos_matricula
+    - intent: consulta_sobre_matricula
+    - action: utter_formulario_procesos_matricula
+    - intent: consulta_solicitud_carnet_universitario_form
+    - action: utter_informar_solicitud_carnet_universitario
+    - action: utter_mas_ayuda_formulario_luego_procesos_matricula
+    - intent: denegar_mas_ayuda
+    - action: utter_despedida
 
 - story: PM005F1
   steps:
@@ -97,6 +154,13 @@ stories:
     - intent: consulta_solicitud_carnet_universitario_form
     - action: utter_informar_solicitud_carnet_universitario
     - action: utter_mas_ayuda_formulario_luego_procesos_matricula
+    - intent: consulta_sobre_matricula
+    - action: utter_formulario_procesos_matricula
+    - intent: consulta_pago_autoseguro_form
+    - action: utter_informar_pago_autoseguro_procedimiento
+    - action: utter_mas_ayuda_formulario_luego_procesos_matricula
+    - intent: denegar_mas_ayuda
+    - action: utter_despedida
 
 - story: PM005F2
   steps:
@@ -107,6 +171,13 @@ stories:
     - intent: consulta_solicitud_carnet_universitario_form
     - action: utter_informar_solicitud_carnet_universitario
     - action: utter_mas_ayuda_formulario_luego_procesos_matricula
+    - intent: consulta_sobre_matricula
+    - action: utter_formulario_procesos_matricula
+    - intent: consulta_pago_autoseguro_form
+    - action: utter_informar_pago_autoseguro_procedimiento
+    - action: utter_mas_ayuda_formulario_luego_procesos_matricula
+    - intent: denegar_mas_ayuda
+    - action: utter_despedida
 
 - story: PM006F1
   steps:
@@ -118,6 +189,13 @@ stories:
     - intent: consulta_pago_autoseguro_form
     - action: utter_informar_pago_autoseguro_procedimiento
     - action: utter_mas_ayuda_formulario_luego_procesos_matricula
+    - intent: consulta_sobre_matricula
+    - action: utter_formulario_procesos_matricula
+    - intent: consulta_matricula_rezagada_procedimiento_form
+    - action: utter_informar_matricula_rezagado_procedimiento
+    - action: utter_mas_ayuda_formulario_luego_procesos_matricula
+    - intent: denegar_mas_ayuda
+    - action: utter_despedida
 
 - story: PM006F2
   steps:
@@ -129,6 +207,13 @@ stories:
     - intent: consulta_pago_autoseguro_form
     - action: utter_informar_pago_autoseguro_procedimiento
     - action: utter_mas_ayuda_formulario_luego_procesos_matricula
+    - intent: consulta_sobre_matricula
+    - action: utter_formulario_procesos_matricula
+    - intent: consulta_matricula_rezagada_procedimiento_form
+    - action: utter_informar_matricula_rezagado_procedimiento
+    - action: utter_mas_ayuda_formulario_luego_procesos_matricula
+    - intent: denegar_mas_ayuda
+    - action: utter_despedida
 
 - story: PM007F1
   steps:
@@ -139,6 +224,13 @@ stories:
     - intent: consulta_matricula_rezagada_procedimiento_form
     - action: utter_informar_matricula_rezagado_procedimiento
     - action: utter_mas_ayuda_formulario_luego_procesos_matricula
+    - intent: consulta_sobre_matricula
+    - action: utter_formulario_procesos_matricula
+    - intent: consulta_problemas_matricula_form
+    - action: utter_informar_formulario_problemas_matricula
+    - action: utter_mas_ayuda_formulario_luego_procesos_matricula
+    - intent: denegar_mas_ayuda
+    - action: utter_despedida
 
 - story: PM007F2
   steps:
@@ -150,6 +242,13 @@ stories:
     - intent: consulta_matricula_rezagada_procedimiento_form
     - action: utter_informar_matricula_rezagado_procedimiento
     - action: utter_mas_ayuda_formulario_luego_procesos_matricula
+    - intent: consulta_sobre_matricula
+    - action: utter_formulario_procesos_matricula
+    - intent: consulta_problemas_matricula_form
+    - action: utter_informar_formulario_problemas_matricula
+    - action: utter_mas_ayuda_formulario_luego_procesos_matricula
+    - intent: denegar_mas_ayuda
+    - action: utter_despedida
 
 - story: PM008F1
   steps:
@@ -161,6 +260,13 @@ stories:
     - intent: consulta_problemas_matricula_form
     - action: utter_informar_formulario_problemas_matricula
     - action: utter_mas_ayuda_formulario_luego_procesos_matricula
+    - intent: consulta_sobre_matricula
+    - action: utter_formulario_procesos_matricula
+    - intent: consulta_matricula_procedimiento_regular_form
+    - action: utter_matricula_procedimiento_regular
+    - action: utter_mas_ayuda_formulario_luego_procesos_matricula
+    - intent: denegar_mas_ayuda
+    - action: utter_despedida
 
 - story: PM008F2
   steps:
@@ -171,6 +277,13 @@ stories:
     - intent: consulta_problemas_matricula_form
     - action: utter_informar_formulario_problemas_matricula
     - action: utter_mas_ayuda_formulario_luego_procesos_matricula
+    - intent: consulta_sobre_matricula
+    - action: utter_formulario_procesos_matricula
+    - intent: consulta_matricula_procedimiento_regular_form
+    - action: utter_matricula_procedimiento_regular
+    - action: utter_mas_ayuda_formulario_luego_procesos_matricula
+    - intent: denegar_mas_ayuda
+    - action: utter_despedida
 
 - story: R001F1
   steps:
@@ -182,6 +295,13 @@ stories:
     - intent: consulta_retiro_parcial_procedimiento_form
     - action: utter_informar_retiro_parcial_procedimiento
     - action: utter_mas_ayuda_formulario_luego_retiros
+    - intent: consulta_sobre_retiros
+    - action: utter_formulario_retiros
+    - intent: consulta_retiro_parcial_fechas_form
+    - action: utter_informar_retiro_parcial_fechas
+    - action: utter_mas_ayuda_formulario_luego_retiros
+    - intent: denegar_mas_ayuda
+    - action: utter_despedida
 
 - story: R001F2
   steps:
@@ -191,7 +311,14 @@ stories:
     - action: utter_formulario_retiros
     - intent: consulta_retiro_parcial_procedimiento_form
     - action: utter_informar_retiro_parcial_procedimiento
-    - action: utter_mas_ayuda_formulario_luego_retiros 
+    - action: utter_mas_ayuda_formulario_luego_retiros
+    - intent: consulta_sobre_retiros
+    - action: utter_formulario_retiros
+    - intent: consulta_retiro_parcial_fechas_form
+    - action: utter_informar_retiro_parcial_fechas
+    - action: utter_mas_ayuda_formulario_luego_retiros
+    - intent: denegar_mas_ayuda
+    - action: utter_despedida 
 
 - story: R002F1
   steps:
@@ -202,6 +329,13 @@ stories:
     - intent: consulta_retiro_parcial_fechas_form
     - action: utter_informar_retiro_parcial_fechas
     - action: utter_mas_ayuda_formulario_luego_retiros
+    - intent: consulta_sobre_retiros
+    - action: utter_formulario_retiros
+    - intent: consulta_retiro_total_procedimiento_form
+    - action: utter_informar_retiro_total_procedimiento
+    - action: utter_mas_ayuda_formulario_luego_retiros
+    - intent: denegar_mas_ayuda
+    - action: utter_despedida
 
 - story: R002F2
   steps:
@@ -213,6 +347,13 @@ stories:
     - intent: consulta_retiro_parcial_fechas_form
     - action: utter_informar_retiro_parcial_fechas
     - action: utter_mas_ayuda_formulario_luego_retiros
+    - intent: consulta_sobre_retiros
+    - action: utter_formulario_retiros
+    - intent: consulta_retiro_total_procedimiento_form
+    - action: utter_informar_retiro_total_procedimiento
+    - action: utter_mas_ayuda_formulario_luego_retiros
+    - intent: denegar_mas_ayuda
+    - action: utter_despedida
 
 - story: R003F1
   steps:
@@ -224,6 +365,13 @@ stories:
     - intent: consulta_retiro_total_procedimiento_form
     - action: utter_informar_retiro_total_procedimiento
     - action: utter_mas_ayuda_formulario_luego_retiros
+    - intent: consulta_sobre_retiros
+    - action: utter_formulario_retiros
+    - intent: consulta_retiro_total_fechas_form
+    - action: utter_informar_retiro_total_fechas
+    - action: utter_mas_ayuda_formulario_luego_retiros
+    - intent: denegar_mas_ayuda
+    - action: utter_despedida
 
 - story: R003F2
   steps:
@@ -234,6 +382,13 @@ stories:
     - intent: consulta_retiro_total_procedimiento_form
     - action: utter_informar_retiro_total_procedimiento
     - action: utter_mas_ayuda_formulario_luego_retiros
+    - intent: consulta_sobre_retiros
+    - action: utter_formulario_retiros
+    - intent: consulta_retiro_total_fechas_form
+    - action: utter_informar_retiro_total_fechas
+    - action: utter_mas_ayuda_formulario_luego_retiros
+    - intent: denegar_mas_ayuda
+    - action: utter_despedida
 
 - story: R004F1
   steps:
@@ -245,6 +400,13 @@ stories:
     - intent: consulta_retiro_total_fechas_form
     - action: utter_informar_retiro_total_fechas
     - action: utter_mas_ayuda_formulario_luego_retiros
+    - intent: consulta_sobre_retiros
+    - action: utter_formulario_retiros
+    - intent: consulta_motivos_procede_retiro_total_form
+    - action: utter_informar_motivos_procede_retiro_total
+    - action: utter_mas_ayuda_formulario_luego_retiros
+    - intent: denegar_mas_ayuda
+    - action: utter_despedida
 
 - story: R004F2
   steps:
@@ -255,6 +417,13 @@ stories:
     - intent: consulta_retiro_total_fechas_form
     - action: utter_informar_retiro_total_fechas
     - action: utter_mas_ayuda_formulario_luego_retiros
+    - intent: consulta_sobre_retiros
+    - action: utter_formulario_retiros
+    - intent: consulta_motivos_procede_retiro_total_form
+    - action: utter_informar_motivos_procede_retiro_total
+    - action: utter_mas_ayuda_formulario_luego_retiros
+    - intent: denegar_mas_ayuda
+    - action: utter_despedida
 
 - story: R005F1
   steps:
@@ -266,6 +435,13 @@ stories:
     - intent: consulta_motivos_procede_retiro_total_form
     - action: utter_informar_motivos_procede_retiro_total
     - action: utter_mas_ayuda_formulario_luego_retiros
+    - intent: consulta_sobre_retiros
+    - action: utter_formulario_retiros
+    - intent: consulta_retiro_total_fechas_form
+    - action: utter_informar_retiro_total_fechas
+    - action: utter_mas_ayuda_formulario_luego_retiros
+    - intent: denegar_mas_ayuda
+    - action: utter_despedida
 
 - story: R005F2
   steps:
@@ -276,6 +452,13 @@ stories:
     - intent: consulta_motivos_procede_retiro_total_form
     - action: utter_informar_motivos_procede_retiro_total
     - action: utter_mas_ayuda_formulario_luego_retiros
+    - intent: consulta_sobre_retiros
+    - action: utter_formulario_retiros
+    - intent: consulta_retiro_total_fechas_form
+    - action: utter_informar_retiro_total_fechas
+    - action: utter_mas_ayuda_formulario_luego_retiros
+    - intent: denegar_mas_ayuda
+    - action: utter_despedida
 
 - story: TPA001F1
   steps:
@@ -287,6 +470,13 @@ stories:
     - intent: consulta_reserva_matricula_procedimiento_form
     - action: utter_informar_reserva_matricula_procedimiento
     - action: utter_mas_ayuda_formulario_luego_tramites_procesos_academicos
+    - intent: consulta_tramites_y_procesos_academicos
+    - action: utter_formulario_tramites_procesos_academicos
+    - intent: consulta_reserva_matricula_fechas_form
+    - action: utter_informar_reserva_matricula_fechas
+    - action: utter_mas_ayuda_formulario_luego_tramites_procesos_academicos
+    - intent: denegar_mas_ayuda
+    - action: utter_despedida
 
 - story: TPA001F2
   steps:
@@ -297,6 +487,13 @@ stories:
     - intent: consulta_reserva_matricula_procedimiento_form
     - action: utter_informar_reserva_matricula_procedimiento
     - action: utter_mas_ayuda_formulario_luego_tramites_procesos_academicos
+    - intent: consulta_tramites_y_procesos_academicos
+    - action: utter_formulario_tramites_procesos_academicos
+    - intent: consulta_reserva_matricula_fechas_form
+    - action: utter_informar_reserva_matricula_fechas
+    - action: utter_mas_ayuda_formulario_luego_tramites_procesos_academicos
+    - intent: denegar_mas_ayuda
+    - action: utter_despedida
 
 - story: TPA002F1
   steps:
@@ -308,6 +505,13 @@ stories:
     - intent: consulta_reserva_matricula_fechas_form
     - action: utter_informar_reserva_matricula_fechas
     - action: utter_mas_ayuda_formulario_luego_tramites_procesos_academicos
+    - intent: consulta_tramites_y_procesos_academicos
+    - action: utter_formulario_tramites_procesos_academicos
+    - intent: consulta_reincorporacion_procedimiento_form
+    - action: utter_informar_reincorporacion_procedimiento
+    - action: utter_mas_ayuda_formulario_luego_tramites_procesos_academicos
+    - intent: denegar_mas_ayuda
+    - action: utter_despedida
 
 - story: TPA002F2
   steps:
@@ -318,6 +522,13 @@ stories:
     - intent: consulta_reserva_matricula_fechas_form
     - action: utter_informar_reserva_matricula_fechas
     - action: utter_mas_ayuda_formulario_luego_tramites_procesos_academicos
+    - intent: consulta_tramites_y_procesos_academicos
+    - action: utter_formulario_tramites_procesos_academicos
+    - intent: consulta_reincorporacion_procedimiento_form
+    - action: utter_informar_reincorporacion_procedimiento
+    - action: utter_mas_ayuda_formulario_luego_tramites_procesos_academicos
+    - intent: denegar_mas_ayuda
+    - action: utter_despedida
 
 - story: TPA003F1
   steps:
@@ -329,19 +540,50 @@ stories:
     - intent: consulta_reincorporacion_procedimiento_form
     - action: utter_informar_reincorporacion_procedimiento
     - action: utter_mas_ayuda_formulario_luego_tramites_procesos_academicos
+    - intent: consulta_tramites_y_procesos_academicos
+    - action: utter_formulario_tramites_procesos_academicos
+    - intent: consulta_reincorporacion_fechas_form
+    - action: utter_informar_reincorporacion_fechas
+    - action: utter_mas_ayuda_formulario_luego_tramites_procesos_academicos
+    - intent: denegar_mas_ayuda
+    - action: utter_despedida
 
 - story: TPA003F2
   steps:
-    - intent: saludo
-    - action: utter_saludo
+    - intent: menu_principal
     - action: utter_formulario_temas
     - intent: consulta_tramites_y_procesos_academicos
     - action: utter_formulario_tramites_procesos_academicos
     - intent: consulta_reincorporacion_procedimiento_form
     - action: utter_informar_reincorporacion_procedimiento
     - action: utter_mas_ayuda_formulario_luego_tramites_procesos_academicos
+    - intent: consulta_tramites_y_procesos_academicos
+    - action: utter_formulario_tramites_procesos_academicos
+    - intent: consulta_reincorporacion_fechas_form
+    - action: utter_informar_reincorporacion_fechas
+    - action: utter_mas_ayuda_formulario_luego_tramites_procesos_academicos
+    - intent: denegar_mas_ayuda
+    - action: utter_despedida
 
-- story: TPA004
+- story: TPA004F1
+  steps:
+    - intent: saludo
+    - action: utter_saludo
+    - action: utter_formulario_temas
+    - intent: consulta_tramites_y_procesos_academicos
+    - action: utter_formulario_tramites_procesos_academicos
+    - intent: consulta_reincorporacion_fechas_form
+    - action: utter_informar_reincorporacion_fechas
+    - action: utter_mas_ayuda_formulario_luego_tramites_procesos_academicos
+    - intent: consulta_tramites_y_procesos_academicos
+    - action: utter_formulario_tramites_procesos_academicos
+    - intent: consulta_solicitud_constancia_matricula_procedimiento_form
+    - action: utter_informar_solicitud_constancia_matricula_procedimiento
+    - action: utter_mas_ayuda_formulario_luego_tramites_procesos_academicos
+    - intent: denegar_mas_ayuda
+    - action: utter_despedida
+
+- story: TPA004F2
   steps:
     - intent: menu_principal
     - action: utter_formulario_temas
@@ -350,6 +592,13 @@ stories:
     - intent: consulta_reincorporacion_fechas_form
     - action: utter_informar_reincorporacion_fechas
     - action: utter_mas_ayuda_formulario_luego_tramites_procesos_academicos
+    - intent: consulta_tramites_y_procesos_academicos
+    - action: utter_formulario_tramites_procesos_academicos
+    - intent: consulta_solicitud_constancia_matricula_procedimiento_form
+    - action: utter_informar_solicitud_constancia_matricula_procedimiento
+    - action: utter_mas_ayuda_formulario_luego_tramites_procesos_academicos
+    - intent: denegar_mas_ayuda
+    - action: utter_despedida
 
 - story: TPA005F1
   steps:
@@ -361,6 +610,13 @@ stories:
     - intent: consulta_solicitud_constancia_matricula_procedimiento_form
     - action: utter_informar_solicitud_constancia_matricula_procedimiento
     - action: utter_mas_ayuda_formulario_luego_tramites_procesos_academicos
+    - intent: consulta_tramites_y_procesos_academicos
+    - action: utter_formulario_tramites_procesos_academicos
+    - intent: consulta_constancia_notas_procedimiento_form
+    - action: utter_informar_constancia_notas_procedimiento
+    - action: utter_mas_ayuda_formulario_luego_tramites_procesos_academicos
+    - intent: denegar_mas_ayuda
+    - action: utter_despedida
 
 - story: TPA005F2
   steps:
@@ -371,6 +627,13 @@ stories:
     - intent: consulta_solicitud_constancia_matricula_procedimiento_form
     - action: utter_informar_solicitud_constancia_matricula_procedimiento
     - action: utter_mas_ayuda_formulario_luego_tramites_procesos_academicos
+    - intent: consulta_tramites_y_procesos_academicos
+    - action: utter_formulario_tramites_procesos_academicos
+    - intent: consulta_constancia_notas_procedimiento_form
+    - action: utter_informar_constancia_notas_procedimiento
+    - action: utter_mas_ayuda_formulario_luego_tramites_procesos_academicos
+    - intent: denegar_mas_ayuda
+    - action: utter_despedida
 
 - story: TPA006F1
   steps:
@@ -382,6 +645,13 @@ stories:
     - intent: consulta_constancia_notas_procedimiento_form
     - action: utter_informar_constancia_notas_procedimiento
     - action: utter_mas_ayuda_formulario_luego_tramites_procesos_academicos
+    - intent: consulta_tramites_y_procesos_academicos
+    - action: utter_formulario_tramites_procesos_academicos
+    - intent: consulta_constancia_de_estudios_procedimiento_form
+    - action: utter_informar_constancia_de_estudios_procedimiento
+    - action: utter_mas_ayuda_formulario_luego_tramites_procesos_academicos
+    - intent: denegar_mas_ayuda
+    - action: utter_despedida
 
 - story: TPA006F2
   steps:
@@ -392,6 +662,13 @@ stories:
     - intent: consulta_constancia_notas_procedimiento_form
     - action: utter_informar_constancia_notas_procedimiento
     - action: utter_mas_ayuda_formulario_luego_tramites_procesos_academicos
+    - intent: consulta_tramites_y_procesos_academicos
+    - action: utter_formulario_tramites_procesos_academicos
+    - intent: consulta_constancia_de_estudios_procedimiento_form
+    - action: utter_informar_constancia_de_estudios_procedimiento
+    - action: utter_mas_ayuda_formulario_luego_tramites_procesos_academicos
+    - intent: denegar_mas_ayuda
+    - action: utter_despedida
 
 - story: TPA007F1
   steps:
@@ -403,6 +680,13 @@ stories:
     - intent: consulta_constancia_de_estudios_procedimiento_form
     - action: utter_informar_constancia_de_estudios_procedimiento
     - action: utter_mas_ayuda_formulario_luego_tramites_procesos_academicos
+    - intent: consulta_tramites_y_procesos_academicos
+    - action: utter_formulario_tramites_procesos_academicos
+    - intent: consulta_reserva_matricula_procedimiento_form
+    - action: utter_informar_reserva_matricula_procedimiento
+    - action: utter_mas_ayuda_formulario_luego_tramites_procesos_academicos
+    - intent: denegar_mas_ayuda
+    - action: utter_despedida
 
 - story: TPA007F2
   steps:
@@ -413,6 +697,13 @@ stories:
     - intent: consulta_constancia_de_estudios_procedimiento_form
     - action: utter_informar_constancia_de_estudios_procedimiento
     - action: utter_mas_ayuda_formulario_luego_tramites_procesos_academicos
+    - intent: consulta_tramites_y_procesos_academicos
+    - action: utter_formulario_tramites_procesos_academicos
+    - intent: consulta_reserva_matricula_procedimiento_form
+    - action: utter_informar_reserva_matricula_procedimiento
+    - action: utter_mas_ayuda_formulario_luego_tramites_procesos_academicos
+    - intent: denegar_mas_ayuda
+    - action: utter_despedida
 
 - story: CA0001
   steps:

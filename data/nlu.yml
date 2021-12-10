@@ -352,7 +352,9 @@ nlu:
   examples: |
     - tengo una consulta
     - tengo una duda
-
+    - quiero hacer una consulta
+    - ayudame con una consulta
+    
 - intent: denegar_mas_ayuda
   examples: |
     - no nada mas gracias
