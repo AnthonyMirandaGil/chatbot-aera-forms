@@ -181,6 +181,14 @@ responses:
       - title: "Escribir una consulta directa"
         payload: "/consulta_directa"
 
+  utter_desanbigue_procedimiento_matricula:
+    - text: "¿Es usted alumno ingresante?"
+      buttons:
+      - title: 'Sí, soy ingresante'
+        payload: '/consulta_matricula_procedimiento_ingresante'
+      - title: 'No, soy alumno regular'
+        payload: '/consulta_matricula_procedimiento_regular'
+
   utter_formulario_procesos_matricula:
     - text: 'Sé que algunos temas del proceso de matrícula pueden generar dudas, pero no te preocupes estoy para ayudarte. Elija la opción que corresponda con su consulta:'
       buttons:
@@ -344,11 +352,11 @@ responses:
   utter_informar_motivos_procede_retiro_total:
     - text: |-
         El retiro total procede por motivos de fuerza mayor: 
-        \n1. Viaje al extranjero 
-        \n2. Accidente limitante 
-        \n3. Enfermedad limitante 
-        \n4. Emergencia familiar limitante 
-        \n5. Afectación limitante por COVID-19 (Incluye alumnos separados por un 1año)
+        \n\n 1. Viaje al extranjero 
+        \n\n 2. Accidente limitante 
+        \n\n 3. Enfermedad limitante 
+        \n\n 4. Emergencia familiar limitante 
+        \n\n 5. Afectación limitante por COVID-19 (Incluye alumnos separados por un 1año)
 
   utter_informar_reserva_matricula_fechas:
     - text: 'La solicitud de reserva de matricula debe ser enviada hasta una semana antes de inicio de la próxima matrícula, ponemos a su disposición el cronograma de actividades que se encuentra aquí: https://drive.google.com/file/d/1bYqSxhadDDAQYHRK3SWzp-_l2jds4Vxq/view'

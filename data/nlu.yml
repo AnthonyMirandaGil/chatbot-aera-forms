@@ -117,6 +117,8 @@ nlu:
     
 - intent: consulta_retiro_parcial_procedimiento
   examples: |
+    - como hago un retiro parcial
+    - como me retiro de un curso
     - cual procedimiento del retiro parcial
     - Estoy matriculado en 3 cursos y quiero salirme de uno
     - ¿Qué pasos debo seguir para el retiro parcial?
@@ -191,11 +193,22 @@ nlu:
   examples: |
     - ¿Cuál es el proceso de matrícula para un alumno ingresante?
     - Soy ingresante como es el proceso de matricula
+    - Hola, soy alumno ingresante quiero saber como realizar mi matricula
+    - soy alumno ingresante de fisica me podrias decir cual es el proceso de matricula
+    - soy ingresante de ciencias de la computación cual es el proceso de matricula
+    - una consulta soy alumno ingresante de matematicas me indicaron que debo hacer unos pagos e ingresar a una plataforma para hacer mi matricula pero no entendi bien
+    - soy alumno ingresante como realizo mi matricula
 
 - intent: consulta_matricula_procedimiento_regular
   examples: |
     - ¿Cuál es el proceso de matrícula para un alumno regular?
     - Soy alumno regular como es el proceso de matricula
+    - Hola, soy alumno regular quiero saber como realizar mi matricula
+    - soy alumno regular de fisica me podrias decir cual es el proceso de matricula
+    - soy alumno regular de ciencias de la computación cual es el proceso de matricula
+    - una consulta soy alumno regular de matematicas me indicaron que debo hacer unos pagos e ingresar a una plataforma para hacer mi matricula pero no entendi bien
+    - soy alumno regular como realizo mi matricula
+
 - intent: consulta_matricula_cronograma
   examples: |
     - Hola porfavor quiero saber la fecha de matricula del siguiente ciclo
@@ -1281,6 +1294,10 @@ nlu:
     - cuales son los motivos?
     - Deseo realizar un retiro total y quiero saber por que motivos procede
     - cuales son los motivos de fuerza mayor por que procede?
+    - cuales son los motivos de fuerza mayor para el retiro total
+    - cual seria un motivo para hacer un retiro parcial
+    - el covid es un motivo para poder hacer un retiro parcial
+    
 - intent: consulta_retiro_total_requisitos_documentos_justificacion
   examples: |
     - debo justificar mis motivos?

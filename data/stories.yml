@@ -435,10 +435,22 @@ stories:
   steps:
     - intent: despedida
     - action: utter_despedida
-- story: 
+- story: CMM001
   steps:
     - intent: consulta_matricula_procedimiento
-    - action: utter_informar_matricula_procedimiento
+    - action: utter_desanbigue_procedimiento_matricula
+    - intent: consulta_matricula_procedimiento_ingresante
+    - action: utter_matricula_procedimiento_ingresante
+    - intent: agradecimiento
+    - action: utter_agradecimiento_y_requerir_mas
+    - intent: denegar_mas_ayuda
+    - action: utter_despedida
+- story: CMM002
+  steps:
+    - intent: consulta_matricula_procedimiento
+    - action: utter_desanbigue_procedimiento_matricula
+    - intent: consulta_matricula_procedimiento_regular
+    - action: utter_matricula_procedimiento_regular
     - intent: agradecimiento
     - action: utter_agradecimiento_y_requerir_mas
     - intent: denegar_mas_ayuda
